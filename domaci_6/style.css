@@ -1,0 +1,221 @@
+/* 01. general */
+/* 02. header */
+/* 03. pages */
+/* 03.01 about */
+/* 03.02 portfolio */
+/* 03.03 contact */
+/* 04. footer */
+/* 05. media query */
+
+/* 01. general */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background-color: black;
+	padding: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, p, a {
+	color: #990000;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, p {
+	text-shadow: 0 0 14px white;
+}
+
+/* 02. header */
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 15%;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+span {
+	color: white;
+	font-size: 3rem;
+}
+
+.rule_container {
+	width: 17%;
+	min-width: 126px;
+	margin: 0 auto;
+}
+
+.rule {
+	color: #8c8c8c;
+	text-align: left;
+	padding-left: 10%;
+	text-shadow: none;
+}
+
+.rule:hover {
+	color: white;
+	text-shadow: 0 0 14px white;
+}
+
+.hr_gornja {
+	width: 30%;
+	height: 1px;
+	background-color: grey;
+	border: none;
+	box-shadow: 0 0 5px white;
+}
+
+/* nav */
+
+nav {
+	margin: 0 auto;
+	padding-right: 9.5%;
+	text-align: center;
+}
+
+a {
+	color: #8c8c8c;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+a:hover {
+	color: white;
+	text-shadow: 0 0 10px white;
+}
+
+a:active {
+	color: white;
+	text-shadow: 0 0 10px white !important;
+}
+
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+nav .nav:nth-child(2) {
+	margin: 0 20px;
+}
+
+ul {
+	min-width: 240px;
+}
+
+/* 03. pages */
+/* 03.01 about */
+
+.article_about {
+	padding: 60px 25px;
+	text-align: center;
+}
+
+.section_about {
+	display: inline-block;
+	width: 30%;
+	min-width: 166px;
+}
+
+.section_about img {
+	width: 40%;
+}
+
+article .section_about:nth-child(2) {
+	margin: 0 10px 30px;
+}
+
+/* 03. pages */
+/* 03.02 portfolio */
+
+.article_portfolio {
+	padding: 60px 25px;
+	text-align: center;
+}
+
+.section_portfolio {
+	display: inline-block;
+	width: 30%;
+	min-width: 166px;
+	margin: 10px 10px;
+}
+
+/* 03. pages */
+/* 03.03 contact */
+
+.contact_info {
+	margin: 80px auto;
+	padding-left: 10%;
+}
+
+/* 0.footer */
+
+footer {
+	text-align: center;
+}
+
+.hr_donja {
+	width: 90%;
+	height: 1px;
+	background-color: grey;
+	border: none;
+	box-shadow: 0 0 5px white;
+}
+
+
+.fa-icons {
+	color: white;
+	font-size: 2rem;
+	text-shadow: 0 0 1px white;
+}
+
+.fa-icons i:nth-child(2) {
+	margin: 0 10px;
+}
+
+@media only screen and (min-width: 587px) {
+ 	nav {
+ 		margin: 0 0 0 15px;
+ 	}
+}
+
+@media only screen and (min-width: 755px) {
+ 	nav {
+ 		margin: 0 0 0 22px;
+ 	}
+}
+
+@media only screen and (min-width: 1020px) {
+ 	nav {
+ 		margin: 0 0 0 50px;
+ 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
